@@ -46,6 +46,7 @@ export async function DELETE(
     if(!currentUser){
         return NextResponse.error()
     }
+    
 
     const { listingId} = params
 
